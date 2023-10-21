@@ -1,18 +1,27 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  color: $dark;
+}
+
+h1,
+h2 {
+}
+
 .container {
-  width: 100%;
+  max-width: 1210px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
 }
 
 @media (max-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
+  // .container {
+  //   max-width: 1210px;
+  // }
 
-  .header {
-    background-color: #e97d35;
-  }
+  // .header {
+  //   background-color: #e97d35;
+  // }
 }
 
 @media (max-width: 992px) {
