@@ -3,43 +3,15 @@ body {
   color: $dark;
 }
 
-.hidden {
-  display: none;
-}
-
+h1,
 h2 {
-  font-size: 48px;
-  line-height: 120%;
 }
 
 .container {
   max-width: 1210px;
-  min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
-  // overflow: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: $dark;
-}
-
-#toggle {
-  display: none;
-}
-button {
-  border: none;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  color: $accent;
-  font-size: 16px;
-  padding: 0;
-  img {
-    margin-right: 5px;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -56,31 +28,34 @@ button {
   .container {
     max-width: 960px;
   }
+  .header {
+    background-color: #3547e9;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
   }
-  // .header {
-  //   background-color: #c70f0f;
-  // }
+  .header {
+    background-color: #c70f0f;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 540px;
   }
-  // .header {
-  //   background-color: #81c532;
-  // }
+  .header {
+    background-color: #81c532;
+  }
 }
 
 @media (max-width: 420px) {
   .container {
     max-width: 380px;
   }
-  // .header {
-  //   background-color: #696969;
-  // }
+  .header {
+    background-color: #696969;
+  }
 }
