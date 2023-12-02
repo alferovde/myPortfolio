@@ -1,0 +1,30 @@
+.map {
+  height: 805px;
+  margin-top: 70px;
+  h2 {
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .map {
+    height: 700px;
+  }
+}
+
+@media (max-width: 900px) {
+  .map {
+    height: 630px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map {
+    display: none;
+  }
+}
